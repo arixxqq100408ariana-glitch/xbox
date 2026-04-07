@@ -12,7 +12,7 @@
 :root {
   --font-family: "HelveticaNeue", sans-serif;
 }
-h1 {
+/* h1 {
   font-family: "HelveticaNeue";
   font-weight: 400;
   font-size: 16px;
@@ -25,3 +25,76 @@ h1 {
   margin: 0 auto;
 }
 
+header{
+border-radius: 4px;
+
+height: 60px;
+background: #373a3c;
+display: flex;
+}
+
+nav{
+  width: 1069px;
+height: 38px;
+}
+
+.search{
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 209px;
+height: 38px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 131%;
+color: #435766;
+opacity: 0.4;
+}
+
+li{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+color: #fff;
+}
+
+a{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+color: #fff;
+} */
+
+header {
+  background: #373a3c;
+  height: 60px;
+  border-radius: 4px;
+
+}
+.nav_bar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 24px;
+  padding-top: 21px;
+}
+
+.nav_bar li a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+
+
+.minimal-form{
+  border: 1px solid #ccc;
+border-radius: 4px;
+width: 209px;
+background: #fff;
+
+}
